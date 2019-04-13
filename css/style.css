@@ -1,0 +1,158 @@
+﻿/* ============================================================================================== 
+This copyright notice must be kept untouched in the stylesheet at all times.
+The original version of this stylesheet and the associated (x)html 
+is available at http://www.script-tutorials.com/bootstrap-one-page-template-with-parallax-effect/
+Copyright (c) Script Tutorials. All rights reserved.
+This stylesheet and the associated (x)html may be modified in any way to fit your requirements.
+================================================================================================= */
+
+/* general styles */
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+/* padded section */
+.pad-section {
+  padding: 50px 0;
+}
+
+.pad-section img {
+  width: 100%;
+}
+
+li a {
+  display: block;
+  color: #f6fafc;
+  padding: 8px 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.bg-info {
+  background-color: #8f2f24;
+}
+
+.navbar-brand {
+  color: #f6fafc;
+}
+
+.navbar-toggle {
+  background-color: #f6fafc;
+}
+
+/* vertical-centered text */
+.text-vcenter {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.text-vcenter h1 {
+  font-size: 4.5em;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.ptext .border {
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+}
+
+.ptext .border.trans {
+  background-color: transparent;
+}
+
+.section {
+  text-align: center;
+  padding: 100px 100px;
+}
+
+.section-light {
+  background-color: #f4f4f4;
+  color: #666;
+}
+
+/* additional sections */
+#home {
+  background: url(../images/home.jpg) no-repeat center center fixed;
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#about {}
+
+#services {
+  background-color: #306d9f;
+  color: #ffffff;
+}
+
+#services .glyphicon {
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 60px;
+  height: 140px;
+  line-height: 140px;
+  text-align: center;
+  vertical-align: middle;
+  width: 140px;
+}
+
+#information {
+  background: url(../images/estate.jpg) no-repeat center center fixed;
+  display: table;
+  height: 800px;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#information .panel {
+  opacity: 1;
+}
+
+#google_map {
+  height: 500px;
+}
+
+footer {
+  padding: 20px 0;
+  background-color: #8f2f24;
+}
+
+.page .footer-copyright {
+  color: #fff;
+}
+
+footer .glyphicon {
+  color: rgb(20, 129, 218);
+  font-size: 60px;
+}
+
+footer .glyphicon:hover {
+  color: #306d9f;
+}
